@@ -1,0 +1,12 @@
+.fibonacci {
+	background-color: #00ff00;
+	padding: 10px 20px;
+}
+
+.fib_error {
+	background-color: #ff0000;
+}
+
+.fib_selected {
+	background-color: #00cc00;
+}
