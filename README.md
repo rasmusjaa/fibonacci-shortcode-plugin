@@ -1,5 +1,7 @@
 # Fibonacci shortcode plugin: a coding exercise
 
+![Fibonacci](https://github.com/rasmusjaa/fibonacci-shortcode-plugin/blob/master/fibonacci.png)
+
 Objective was to create a Wordpress plugin that adds two new shortcodes to wordpress:
 [fibonacci length=1] Prints fibonacci sequence at given length.
 [fibonacci-reverse length=1] Prints reversed fibonacci sequence at given length.
