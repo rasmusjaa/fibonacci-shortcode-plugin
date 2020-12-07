@@ -32,8 +32,8 @@ if (!class_exists('FibonacciPlugin') )
 
 			// just register script and style so they are not loaded on pages without the shortcode
 			add_action( 'wp_enqueue_scripts', function() {
-				wp_register_script( 'fibonacci-script', plugins_url( 'script.js', __FILE__ ), array( 'jquery' ), '1.0', false );
-				wp_register_style( 'fibonacci-style', plugins_url( 'style.css', __FILE__), array(), '1.0', 'all' );
+				wp_register_script( 'fibonacci-script', plugins_url( 'js/script.js', __FILE__ ), array( 'jquery' ), '1.0', false );
+				wp_register_style( 'fibonacci-style', plugins_url( 'css/style.css', __FILE__), array(), '1.0', 'all' );
 			});
 
 			add_action( 'wp_ajax_fibonacci', array( $this, 'fibonacci_ajax' ) );
