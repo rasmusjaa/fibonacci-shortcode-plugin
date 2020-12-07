@@ -28,7 +28,7 @@ if (!class_exists('FibonacciPlugin') )
 		private function setup_actions()
 		{
             add_shortcode( 'fibonacci', array( $this, 'fibonacci_shortcode_func' ) );
-			add_shortcode( 'fibonacci_reversed', array( $this, 'fibonacci_shortcode_func' ) );
+			add_shortcode( 'fibonacci-reverse', array( $this, 'fibonacci_shortcode_func' ) );
 
 			// just register script and style so they are not loaded on pages without the shortcode
 			add_action( 'wp_enqueue_scripts', function() {

@@ -43,7 +43,7 @@ trait Fibonacci_Shortcode
 			case 'fibonacci':
 				$meta_key = 'fibonacci_sequence';
 				break;
-			case 'fibonacci_reversed':
+			case 'fibonacci-reverse':
 				$array = array_reverse($array);
 				$meta_key = 'fibonacci_reversed';
 				break;
