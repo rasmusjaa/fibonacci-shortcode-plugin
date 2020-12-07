@@ -1,7 +1,9 @@
 jQuery(document).ready( function() {
 	jQuery(".fibonacci_sequence").click( function(e) {
+
 		jQuery(".fib_selected").removeClass("fib_selected");
 		jQuery(this).addClass("fib_selected");
+
 		action = jQuery(this).attr("data-action");
 		post_id = jQuery(this).attr("data-post_id");
 		nonce = jQuery(this).attr("data-nonce");
