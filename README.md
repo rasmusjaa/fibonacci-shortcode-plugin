@@ -6,7 +6,7 @@ Objective was to create a Wordpress plugin that adds two new shortcodes to wordp
 [fibonacci length=1] Prints fibonacci sequence at given length.
 [fibonacci-reverse length=1] Prints reversed fibonacci sequence at given length.
 Clicking the sequence in UI initiates an ajax-request that saves the given value as post meta data called "fibonacci_sequence" or "fibonacci_reversed" depending on shortcode.
-Use of also lambda function(s) and a trait(s) in a meaningful way was also requested.
+Use of lambda function(s) and a trait(s) in a meaningful way was also requested.
 Plugin is compatible with WP 5.4 ->
 
 ### Notes
