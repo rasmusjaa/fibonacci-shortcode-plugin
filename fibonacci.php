@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Fibonacci shortcode
- * Plugin URI: https://lense.fi
- * Description: Display fibonacci sequence of given length using a shortcode
+ * Plugin URI: https://github.com/rasmusjaa/fibonacci-shortcode-plugin
+ * Description: Display fibonacci sequence with shortcodes [fibonacci length=x] and [fibonacci-reversed length=x]
  * Version: 1.0
  * Text Domain: fibonacci
  * Author: Rasmus Jaakonmäki
